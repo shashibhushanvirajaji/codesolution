@@ -23,6 +23,7 @@ public class WebDriverBase {
 	{
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
+		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(120));
 		//driver.manage().window().maximize();
 		reader=new FileReader("config.properties");  	     

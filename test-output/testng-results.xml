@@ -1,67 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="2" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-01-12T12:13:10 IST" name="Default suite" finished-at="2023-01-12T12:13:33 IST" duration-ms="22564">
+  <suite started-at="2023-01-15T19:12:09 IST" name="CodeSolution" finished-at="2023-01-15T19:13:38 IST" duration-ms="89035">
     <groups>
     </groups>
-    <test started-at="2023-01-12T12:13:10 IST" name="Default test" finished-at="2023-01-12T12:13:33 IST" duration-ms="22564">
+    <test started-at="2023-01-15T19:12:09 IST" name="EndToEndUITests" finished-at="2023-01-15T19:13:12 IST" duration-ms="62701">
       <class name="tests.SauceE2ETests">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.SauceE2ETests@543295b0]" started-at="2023-01-12T12:13:10 IST" name="setup" finished-at="2023-01-12T12:13:28 IST" duration-ms="17485" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.SauceE2ETests@27406a17]" started-at="2023-01-15T19:12:10 IST" name="setup" finished-at="2023-01-15T19:12:46 IST" duration-ms="35933" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyProductsAddedToCartTest()[pri:0, instance:tests.SauceE2ETests@543295b0]" started-at="2023-01-12T12:13:28 IST" name="verifyProductsAddedToCartTest" finished-at="2023-01-12T12:13:31 IST" duration-ms="3389" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [45.98] but found [79.98]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [45.98] but found [79.98]
-at org.testng.Assert.fail(Assert.java:110)
-at org.testng.Assert.failNotEquals(Assert.java:1577)
-at org.testng.Assert.assertEquals(Assert.java:727)
-at org.testng.Assert.assertEquals(Assert.java:774)
-at tests.SauceE2ETests.verifyProductsAddedToCartTest(SauceE2ETests.java:72)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method signature="verifyProductsAddedToCartTest()[pri:0, instance:tests.SauceE2ETests@27406a17]" started-at="2023-01-15T19:12:46 IST" name="verifyProductsAddedToCartTest" finished-at="2023-01-15T19:12:57 IST" duration-ms="11188" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyProductsAddedToCartTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SauceE2ETests@543295b0]" started-at="2023-01-12T12:13:31 IST" name="tearDown" finished-at="2023-01-12T12:13:33 IST" duration-ms="1442" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SauceE2ETests@27406a17]" started-at="2023-01-15T19:12:57 IST" name="tearDown" finished-at="2023-01-15T19:12:58 IST" duration-ms="1662" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.SauceE2ETests@27406a17]" started-at="2023-01-15T19:12:58 IST" name="setup" finished-at="2023-01-15T19:13:10 IST" duration-ms="11593" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyUserIsLockedOutTest()[pri:0, instance:tests.SauceE2ETests@27406a17]" started-at="2023-01-15T19:13:10 IST" name="verifyUserIsLockedOutTest" finished-at="2023-01-15T19:13:11 IST" duration-ms="947" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserIsLockedOutTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SauceE2ETests@27406a17]" started-at="2023-01-15T19:13:11 IST" name="tearDown" finished-at="2023-01-15T19:13:12 IST" duration-ms="1071" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.SauceE2ETests -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- EndToEndUITests -->
+    <test started-at="2023-01-15T19:13:13 IST" name="APITests" finished-at="2023-01-15T19:13:38 IST" duration-ms="25204">
+      <class name="tests.SauceApiTests">
+        <test-method signature="getAndVerifyValidMultipleUsersTest()[pri:0, instance:tests.SauceApiTests@6b695b06]" started-at="2023-01-15T19:13:13 IST" name="getAndVerifyValidMultipleUsersTest" finished-at="2023-01-15T19:13:30 IST" duration-ms="17281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAndVerifyValidMultipleUsersTest -->
+        <test-method signature="getandVerifyInValidSingleUserTest()[pri:0, instance:tests.SauceApiTests@6b695b06]" started-at="2023-01-15T19:13:31 IST" name="getandVerifyInValidSingleUserTest" finished-at="2023-01-15T19:13:31 IST" duration-ms="816" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getandVerifyInValidSingleUserTest -->
+        <test-method signature="getandVerifyValidSingleUserTest()[pri:0, instance:tests.SauceApiTests@6b695b06]" started-at="2023-01-15T19:13:31 IST" name="getandVerifyValidSingleUserTest" finished-at="2023-01-15T19:13:32 IST" duration-ms="373" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getandVerifyValidSingleUserTest -->
+        <test-method signature="postValidUserTest()[pri:0, instance:tests.SauceApiTests@6b695b06]" started-at="2023-01-15T19:13:32 IST" name="postValidUserTest" finished-at="2023-01-15T19:13:38 IST" duration-ms="6669" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postValidUserTest -->
+      </class> <!-- tests.SauceApiTests -->
+    </test> <!-- APITests -->
+  </suite> <!-- CodeSolution -->
 </testng-results>
